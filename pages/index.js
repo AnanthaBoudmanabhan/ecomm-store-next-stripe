@@ -18,7 +18,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Space Jelly Shop</h1>
         <div className={styles.description}>
-          The best space jellyfish swag on the web!
+          The best space jellyfish swag in the universe!
         </div>
         <ul className={styles.grid}>
           {products.map(({ id, title, description, price, image }) => (
